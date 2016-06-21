@@ -1,0 +1,21 @@
+{
+  "name": "verify-alexa-request",
+  "version": "0.0.1",
+  "description": "Verify an Alexa Skill request",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JamesHight/node-verify-alexa-request.git"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/mocha ./test"
+  },
+  "dependencies": {
+    "config-extend": "^0.1.0",
+    "crypto": "0.0.3",
+    "normalizeurl": "^0.1.3",
+    "request": "^2.72.0",
+    "stale-lru-cache": "^5.0.2",
+    "x509": "^0.2.6"
+  }
+}
